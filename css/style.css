@@ -467,15 +467,16 @@ footer .row .contact-us img {
 
 .about-us-container {
   overflow: hidden !important;
+  background-color: #FCF7EE;
 }
 .about-us-container .about-us .text h1 {
-  font-family: inherit;
+  font-family: Syne;
   font-size: 3.75rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   margin-bottom: 0.2em;
-  background: linear-gradient(92deg, #117CB2 8.42%, #66DFCF 96.06%);
+  background: #8FB0A1;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -488,7 +489,7 @@ footer .row .contact-us img {
 }
 .about-us-container .about-us .text p {
   color: #000;
-  font-family: Maven Pro;
+  font-family: Saira;
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;

@@ -156,17 +156,18 @@
 
 .about-us-container{
     overflow: hidden!important;
+    background-color: $offset;
     .about-us{
         .text{
             h1{
-                font-family: inherit;
+                font-family: Syne;
                 font-size: 3.75rem;
                 font-style: normal;
                 font-weight: 500;
                 line-height: normal;
                 margin-bottom: 0.2em;
 
-                background: linear-gradient(92deg, #117CB2 8.42%, #66DFCF 96.06%);
+                background: $green;
                 background-clip: text;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -180,7 +181,7 @@
 
             p{
                 color: #000;
-                font-family: Maven Pro;
+                font-family: Saira;
                 font-size: 1.2rem;
                 font-style: normal;
                 font-weight: 400;
