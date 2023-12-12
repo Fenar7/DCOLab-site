@@ -40,38 +40,6 @@
         flex-direction: column;
         align-items: start;
         gap: 1.5em;
-
-        .content-slider {
-            height: 24rem;
-
-            @media(max-width:576px){
-                height: 15rem;
-                text-align: center;
-            }
-
-            position: relative;
-            overflow: hidden;
-
-            .content-item {
-
-                transition: transform 1s ease-in-out;
-                transform: translateY(-1000px);
-              }
-
-            .content-item.active {
-                transform: translateY(0);
-                position: absolute;
-                width: 100%;
-
-            }
-
-            .content-item.before{
-                transform: translateY(1000px);
-            }
-        }
-          
-        
-
         .buttons-row{
             gap: 1.5em;
             flex-wrap: wrap;

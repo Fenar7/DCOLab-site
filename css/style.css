@@ -348,29 +348,6 @@ footer .row .contact-us img {
   align-items: start;
   gap: 1.5em;
 }
-.hero-section-container .hero-section .content .content-slider {
-  height: 24rem;
-  position: relative;
-  overflow: hidden;
-}
-@media (max-width: 576px) {
-  .hero-section-container .hero-section .content .content-slider {
-    height: 15rem;
-    text-align: center;
-  }
-}
-.hero-section-container .hero-section .content .content-slider .content-item {
-  transition: transform 1s ease-in-out;
-  transform: translateY(-1000px);
-}
-.hero-section-container .hero-section .content .content-slider .content-item.active {
-  transform: translateY(0);
-  position: absolute;
-  width: 100%;
-}
-.hero-section-container .hero-section .content .content-slider .content-item.before {
-  transform: translateY(1000px);
-}
 .hero-section-container .hero-section .content .buttons-row {
   gap: 1.5em;
   flex-wrap: wrap;
