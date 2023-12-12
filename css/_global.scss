@@ -1,0 +1,109 @@
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-lg{
+    display: flex;
+    padding: 1.125rem 3.5625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1rem;
+    background: linear-gradient(94deg, #117CB2 4.1%, #67E0CF 95.6%), #00F;
+
+    color: #FFF;
+    font-family: inherit;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+
+    @media(max-width: 576px){
+        padding: 0.8rem 1.2rem;
+        border-radius: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    transition: all .3s ease-out;
+}
+.btn-lg:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.padding-top{
+    padding-top: 50px;
+
+    @media(max-width:768px){
+        padding-top: 40px;
+    }
+
+    @media(max-width:576px){
+        padding-top: 30px;
+    }
+}
+
+.padding-bottom{
+    padding-bottom: 50px;
+
+    @media(max-width:768px){
+        padding-bottom: 40px;
+    }
+
+    @media(max-width:576px){
+        padding-bottom: 30px;
+    }
+}
+
+body::-webkit-scrollbar {
+    width: 5px; /* Set the width of the scrollbar */
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Set the color of the scrollbar thumb */
+    border-radius: 6px; /* Round the corners of the thumb */
+    background: linear-gradient(93deg, #117CB2 24.06%, #67E0CF 79.96%);
+}
+  
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+    opacity: 0;
+}
+
+.container2{
+    @media(max-width:576px){
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+}
+
+.disp-none-mob{
+   @media(max-width:576px){
+    display: none!important;
+   }
+}
+
+.disp-none-desk{
+    @media(min-width:576px){
+        display: none!important;
+    }
+}
