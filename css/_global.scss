@@ -27,15 +27,15 @@ a{
     align-items: center;
     gap: 0.625rem;
     border-radius: 1rem;
-    background: linear-gradient(94deg, #117CB2 4.1%, #67E0CF 95.6%), #00F;
+    background: #8FB0A1;
+    border: none;
 
     color: #FFF;
-    font-family: inherit;
+    font-family: Saira;
     font-size: 1.625rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    border: none;
 
     @media(max-width: 576px){
         padding: 0.8rem 1.2rem;

@@ -27,14 +27,14 @@ a {
   align-items: center;
   gap: 0.625rem;
   border-radius: 1rem;
-  background: linear-gradient(94deg, #117CB2 4.1%, #67E0CF 95.6%), #00F;
+  background: #8FB0A1;
+  border: none;
   color: #FFF;
-  font-family: inherit;
+  font-family: Saira;
   font-size: 1.625rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  border: none;
   transition: all 0.3s ease-out;
 }
 @media (max-width: 576px) {
@@ -317,7 +317,6 @@ footer .row .contact-us img {
 @media (max-width: 576px) {
   .hero-section-container {
     height: unset;
-    padding-bottom: 1.2em;
     background-position: left center;
   }
 }
@@ -328,7 +327,7 @@ footer .row .contact-us img {
 }
 @media (max-width: 576px) {
   .hero-section-container .hero-section {
-    height: unset;
+    height: 100vh;
   }
 }
 .hero-section-container .hero-section .content-row {
@@ -339,7 +338,21 @@ footer .row .contact-us img {
 }
 @media (max-width: 576px) {
   .hero-section-container .hero-section .content-row {
-    height: 50vh;
+    flex-direction: row;
+  }
+}
+@media (max-width: 576px) {
+  .hero-section-container .hero-section .content-row .hero-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .hero-section-container .hero-section .content-row .hero-image img {
+    position: absolute;
+    width: 200px;
+    bottom: 0px;
   }
 }
 .hero-section-container .hero-section .content {
@@ -362,7 +375,7 @@ footer .row .contact-us img {
 .hero-section-container .hero-section .content .text h5 {
   color: #FCF7EE;
   font-family: Syne;
-  font-size: 2.1875rem;
+  font-size: 1.8875rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -370,7 +383,7 @@ footer .row .contact-us img {
 .hero-section-container .hero-section .content .text h1 {
   color: #FCF7EE;
   font-family: Syne;
-  font-size: 5rem;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -381,7 +394,7 @@ footer .row .contact-us img {
   align-items: center;
 }
 .hero-section-container .hero-section .content .text h1 .row hr {
-  border: 3px solid #fff;
+  border: 3px solid #8FB0A1;
   border-radius: 5rem;
   opacity: 1;
 }
