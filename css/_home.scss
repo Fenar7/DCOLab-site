@@ -9,7 +9,7 @@
 
 .hero-section-container{
     overflow: hidden!important;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("/images/bg_main.png"), lightgray 50%;
+    background-color: $main_black;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -52,18 +52,18 @@
 
         .text{
             h5{
-                color: $white;
-                font-family: Maven Pro;
-                font-size: 1.2875rem;
+                color: $offset;
+                font-family: Syne;
+                font-size: 2.1875rem;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
             }
 
             h1{
-                color: #FFF;
-                font-family: Maven Pro;
-                font-size: 3rem;
+                color: $offset;
+                font-family: Syne;
+                font-size: 5rem;
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;

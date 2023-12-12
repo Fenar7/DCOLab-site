@@ -309,7 +309,7 @@ footer .row .contact-us img {
 
 .hero-section-container {
   overflow: hidden !important;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/images/bg_main.png"), lightgray 50%;
+  background-color: #212121;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -360,17 +360,17 @@ footer .row .contact-us img {
   }
 }
 .hero-section-container .hero-section .content .text h5 {
-  color: #fff;
-  font-family: Maven Pro;
-  font-size: 1.2875rem;
+  color: #FCF7EE;
+  font-family: Syne;
+  font-size: 2.1875rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .hero-section-container .hero-section .content .text h1 {
-  color: #FFF;
-  font-family: Maven Pro;
-  font-size: 3rem;
+  color: #FCF7EE;
+  font-family: Syne;
+  font-size: 5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
