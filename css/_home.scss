@@ -444,6 +444,31 @@
 }
 
 .contact-container{
+    position: relative;
+    .c1{
+        position: absolute;
+        display: inline;
+        top: 0;
+        left: 0;
+    }
+    .c2{
+        position: absolute;
+        display: inline;
+        top: 50px;
+        right: 60px;
+    }
+    .c3{
+        position: absolute;
+        display: inline;
+        bottom: 0;
+        left: 0;
+    }
+    .c4{
+        position: absolute;
+        display: inline;
+        bottom: 0;
+        right: 0;
+    }
     overflow: hidden!important;
     background-color: $main_black;
     .contact{
@@ -561,24 +586,23 @@
                 }
 
                 button{
-                    display: inline-block;
-                    max-width: 14rem;
-                    padding: 0.9375rem 2.5625rem;
-                    outline: none;
-                    border: none;
+                    display: inline-flex;
+                    padding: 0.6375rem 1.5625rem;
                     justify-content: center;
                     align-items: center;
                     gap: 0.625rem;
-
-                    border-radius: 0.375rem;
-                    background: linear-gradient(93deg, #117CB2 0.63%, #67E0CF 100%), #00F;
+                    max-width: 14rem;
 
                     color: #FFF;
-                    font-family: Maven Pro;
-                    font-size: 1.3rem;
+                    font-family: Saira;
+                    font-size: 1.3625rem;
                     font-style: normal;
                     font-weight: 600;
                     line-height: normal;
+
+                    border: none;
+                    border-radius: 0.375rem;
+                    background: $green;
 
                     transition: all .3s ease-out;
                 }
@@ -596,7 +620,7 @@
             position: relative;
             .heading{
                 h2{
-                    color: #000;
+                    color: $offset;
                     font-family: Maven Pro;
                     font-size: 1.875rem;
                     font-style: normal;
@@ -610,7 +634,7 @@
                         font-weight: 500;
                         line-height: 144.525%; /* 6.323rem */
     
-                        background: linear-gradient(92deg, #117CB2 2.72%, #67E0CF 57.35%);
+                        background: $offset;
                         background-clip: text;
                         -webkit-background-clip: text;
                         -webkit-text-fill-color: transparent;
@@ -631,7 +655,7 @@
                 gap: 3.5em;
                 .cardd{
                     gap: 1em;
-                    color: #000;
+                    color: $offset;
                     font-family: Maven Pro;
                     font-size: 1.1625rem;
                     font-style: normal;
