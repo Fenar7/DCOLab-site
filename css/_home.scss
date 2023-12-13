@@ -682,17 +682,31 @@
     overflow: hidden!important;
     width: 100%;
     .image{
+        margin: 2em 0em;
         overflow: hidden;
-        border-radius: 1rem;
-        height: 200px;
-        width: 200px;
-
+        display: flex;
+        width: 16.8125rem;
+        height: 11.25rem;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 1.125rem;
+        background: #989898;
+        border: none;
+        outline: none;
         img{
             width: 100%;
             height: 1005;
             object-fit: cover;
         }
     }
+    .odd{
+        border: 4px solid $offset;
+        transform: rotate(-7.723deg);
+    }
+    .even{
+        border: 4px solid $green;
+        transform:  rotate(8deg);
+    }    
 }
 
 .owl-item{
@@ -746,10 +760,45 @@
 
 .we-focus-container{
     background-color: $main_black;
+    position: relative;
+    .c1{
+        position: absolute;
+        display: inline;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+    .c2{
+        position: absolute;
+        display: inline;
+        top: 0px;
+        right: 0px;
+        z-index: 0;
+    }
+    .c3{
+        position: absolute;
+        display: inline;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+    }
+    .c4{
+        position: absolute;
+        display: inline;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+    }
+    
     padding: 5em 0em;
-
     .text{
+        position: relative;
+        z-index: 10;
         h1{
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
             color: $offset;
             text-align: center;
             font-family: Syne;
@@ -757,6 +806,7 @@
             font-style: normal;
             font-weight: 600;
             line-height: normal;
+            
         }
 
         p{
