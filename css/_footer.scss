@@ -1,3 +1,27 @@
+.main-footer-container{
+    position: relative;
+    .c1{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .c2{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .c3{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .c4{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
 footer{
     background: $main_black;
     padding: 6em 0em;

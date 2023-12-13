@@ -233,6 +233,30 @@ header .navbar-collapse .navbar-nav .nav-item .active {
   padding: 0px;
 }
 
+.main-footer-container {
+  position: relative;
+}
+.main-footer-container .c1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-footer-container .c2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.main-footer-container .c3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.main-footer-container .c4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 footer {
   background: #212121;
   padding: 6em 0em;
