@@ -797,6 +797,9 @@
     }
     
     padding: 5em 0em;
+    @media(max-width:576px){
+        height: 600px;
+    }
     .text{
         position: relative;
         z-index: 10;

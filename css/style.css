@@ -1096,6 +1096,11 @@ footer .row .contact-us img {
   right: 0;
   z-index: 0;
 }
+@media (max-width: 576px) {
+  .we-focus-container {
+    height: 600px;
+  }
+}
 .we-focus-container .text {
   position: relative;
   z-index: 10;
