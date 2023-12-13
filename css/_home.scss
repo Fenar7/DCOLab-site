@@ -369,6 +369,12 @@
                     }
                 }
             }
+
+            .c2{
+                display: grid;
+                grid-template-rows: 90% 10%;
+                height: 17rem;
+            }
         }
     }
 }

@@ -683,6 +683,11 @@ footer .row .contact-us img {
   background-color: transparent;
   opacity: 0;
 }
+.services-container .services .cards-container .c2 {
+  display: grid;
+  grid-template-rows: 90% 10%;
+  height: 17rem;
+}
 
 .client-info-container {
   overflow: hidden !important;
