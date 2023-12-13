@@ -806,6 +806,22 @@
             font-style: normal;
             font-weight: 600;
             line-height: normal;
+            flex-wrap: wrap;
+            span{
+                color: $green;
+            }
+
+            @media(max-width: 1200px){
+                font-size: 3.5rem;
+            }
+
+            @media(max-width: 1000px){
+                font-size: 2.5rem;
+            }
+
+            @media(max-width: 576px){
+                font-size: 2rem;
+            }
             
         }
 
@@ -817,6 +833,13 @@
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+            @media(max-width: 1200px){
+                font-size: 1rem;
+            }
+
+            @media(max-width: 1200px){
+                font-size: 0.7rem;
+            }
         }
     }
 }

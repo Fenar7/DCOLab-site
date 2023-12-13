@@ -235,6 +235,7 @@ header .navbar-collapse .navbar-nav .nav-item .active {
 
 .main-footer-container {
   position: relative;
+  overflow: hidden;
 }
 .main-footer-container .c1 {
   position: absolute;
@@ -1106,6 +1107,25 @@ footer .row .contact-us img {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  flex-wrap: wrap;
+}
+.we-focus-container .text h1 span {
+  color: #8FB0A1;
+}
+@media (max-width: 1200px) {
+  .we-focus-container .text h1 {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 1000px) {
+  .we-focus-container .text h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .we-focus-container .text h1 {
+    font-size: 2rem;
+  }
 }
 .we-focus-container .text p {
   color: #FCF7EE;
@@ -1115,4 +1135,14 @@ footer .row .contact-us img {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+@media (max-width: 1200px) {
+  .we-focus-container .text p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1200px) {
+  .we-focus-container .text p {
+    font-size: 0.7rem;
+  }
 }/*# sourceMappingURL=style.css.map */
