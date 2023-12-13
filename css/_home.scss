@@ -445,6 +445,7 @@
 
 .contact-container{
     overflow: hidden!important;
+    background-color: $main_black;
     .contact{
         .form{
             .form-container{
@@ -453,12 +454,12 @@
             .heading{
                 h2{
                     display: inline;
-                    font-family: inherit;
+                    font-family: Syne;
                     font-size: 3.125rem;
                     font-style: normal;
                     font-weight: 500;
                     line-height: 144.525%; /* 4.51644rem */
-                    color: #000;
+                    color: $offset;
                     font-family: Maven Pro;
                     font-size: 3.125rem;
                     font-style: normal;
@@ -484,8 +485,8 @@
                     width: 100%;
                 }
                 input[type="text"]{
-                    color: #000;
-                    font-family: Maven Pro;
+                    color: $offset;
+                    font-family: Saira;
                     font-size: 1.5625rem;
                     font-style: normal;
                     font-weight: 400;
@@ -493,24 +494,24 @@
                     background-color: transparent;
                     border: none;
                     outline: none;
-                    border-bottom: 2px solid $black;
+                    border-bottom: 2px solid $offset;
                     transition: all .3s ease-out;
                 }
                 input[type="text"]::placeholder{
-                    color: #000;
-                    font-family: Maven Pro;
+                    color: $offset;
+                    font-family: Saira;
                     font-size: 1.5625rem;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
                 }
                 input[type="text"]:focus{
-                    border-bottom: 2px solid $light_blue;
+                    border-bottom: 2px solid $green;
                 }
 
                 input[type="email"]{
-                    color: #000;
-                    font-family: Maven Pro;
+                    color: $offset;
+                    font-family: Saira;
                     font-size: 1.5625rem;
                     font-style: normal;
                     font-weight: 400;
@@ -518,24 +519,24 @@
                     background-color: transparent;
                     border: none;
                     outline: none;
-                    border-bottom: 2px solid $black;
+                    border-bottom: 2px solid $offset;
                     transition: all .3s ease-out;
                 }
                 input[type="email"]::placeholder{
-                    color: #000;
-                    font-family: Maven Pro;
+                    color: $offset;
+                    font-family: Saira;
                     font-size: 1.5625rem;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
                 }
                 input[type="email"]:focus{
-                    border-bottom: 2px solid $light_blue;
+                    border-bottom: 2px solid $green;
                 }
 
                 textarea{
-                    color: #000;
-                    font-family: Maven Pro;
+                    color: $offset;
+                    font-family: Saira;
                     font-size: 1.5625rem;
                     font-style: normal;
                     font-weight: 400;
@@ -543,20 +544,20 @@
                     background-color: transparent;
                     border: none;
                     outline: none;
-                    border-bottom: 2px solid $black;
+                    border-bottom: 2px solid $offset;
                     transition: all .3s ease-out;
                     width: 100%;
                 }
                 textarea::placeholder{
-                    color: #000;
-                    font-family: Maven Pro;
+                    color: $offset;
+                    font-family: Saira;
                     font-size: 1.5625rem;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
                 }
                 textarea:focus{
-                    border-bottom: 2px solid $light_blue;
+                    border-bottom: 2px solid $green;
                 }
 
                 button{

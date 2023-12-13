@@ -731,18 +731,19 @@ footer .row .contact-us img {
 
 .contact-container {
   overflow: hidden !important;
+  background-color: #212121;
 }
 .contact-container .contact .form .form-container {
   gap: 1.3em;
 }
 .contact-container .contact .form .heading h2 {
   display: inline;
-  font-family: inherit;
+  font-family: Syne;
   font-size: 3.125rem;
   font-style: normal;
   font-weight: 500;
   line-height: 144.525%; /* 4.51644rem */
-  color: #000;
+  color: #FCF7EE;
   font-family: Maven Pro;
   font-size: 3.125rem;
   font-style: normal;
@@ -764,8 +765,8 @@ footer .row .contact-us img {
   width: 100%;
 }
 .contact-container .contact .form .form-container input[type=text] {
-  color: #000;
-  font-family: Maven Pro;
+  color: #FCF7EE;
+  font-family: Saira;
   font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
@@ -773,31 +774,31 @@ footer .row .contact-us img {
   background-color: transparent;
   border: none;
   outline: none;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #FCF7EE;
   transition: all 0.3s ease-out;
 }
 .contact-container .contact .form .form-container input[type=text]::-moz-placeholder {
-  color: #000;
-  font-family: Maven Pro;
+  color: #FCF7EE;
+  font-family: Saira;
   font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .contact-container .contact .form .form-container input[type=text]::placeholder {
-  color: #000;
-  font-family: Maven Pro;
+  color: #FCF7EE;
+  font-family: Saira;
   font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .contact-container .contact .form .form-container input[type=text]:focus {
-  border-bottom: 2px solid #67E0CF;
+  border-bottom: 2px solid #8FB0A1;
 }
 .contact-container .contact .form .form-container input[type=email] {
-  color: #000;
-  font-family: Maven Pro;
+  color: #FCF7EE;
+  font-family: Saira;
   font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
@@ -805,31 +806,31 @@ footer .row .contact-us img {
   background-color: transparent;
   border: none;
   outline: none;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #FCF7EE;
   transition: all 0.3s ease-out;
 }
 .contact-container .contact .form .form-container input[type=email]::-moz-placeholder {
-  color: #000;
-  font-family: Maven Pro;
+  color: #FCF7EE;
+  font-family: Saira;
   font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .contact-container .contact .form .form-container input[type=email]::placeholder {
-  color: #000;
-  font-family: Maven Pro;
+  color: #FCF7EE;
+  font-family: Saira;
   font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .contact-container .contact .form .form-container input[type=email]:focus {
-  border-bottom: 2px solid #67E0CF;
+  border-bottom: 2px solid #8FB0A1;
 }
 .contact-container .contact .form .form-container textarea {
-  color: #000;
-  font-family: Maven Pro;
+  color: #FCF7EE;
+  font-family: Saira;
   font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
@@ -837,28 +838,28 @@ footer .row .contact-us img {
   background-color: transparent;
   border: none;
   outline: none;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #FCF7EE;
   transition: all 0.3s ease-out;
   width: 100%;
 }
 .contact-container .contact .form .form-container textarea::-moz-placeholder {
-  color: #000;
-  font-family: Maven Pro;
+  color: #FCF7EE;
+  font-family: Saira;
   font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .contact-container .contact .form .form-container textarea::placeholder {
-  color: #000;
-  font-family: Maven Pro;
+  color: #FCF7EE;
+  font-family: Saira;
   font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .contact-container .contact .form .form-container textarea:focus {
-  border-bottom: 2px solid #67E0CF;
+  border-bottom: 2px solid #8FB0A1;
 }
 .contact-container .contact .form .form-container button {
   display: inline-block;
