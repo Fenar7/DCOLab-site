@@ -743,3 +743,30 @@
         }
     }
 }
+
+.we-focus-container{
+    background-color: $main_black;
+    padding: 5em 0em;
+
+    .text{
+        h1{
+            color: $offset;
+            text-align: center;
+            font-family: Syne;
+            font-size: 4.375rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        p{
+            color: $offset;
+            text-align: center;
+            font-family: Saira;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}

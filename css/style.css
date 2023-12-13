@@ -1040,4 +1040,27 @@ footer .row .contact-us img {
 .extra-img .extra-img-inner img {
   width: 130px !important;
   border-radius: 1rem;
+}
+
+.we-focus-container {
+  background-color: #212121;
+  padding: 5em 0em;
+}
+.we-focus-container .text h1 {
+  color: #FCF7EE;
+  text-align: center;
+  font-family: Syne;
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.we-focus-container .text p {
+  color: #FCF7EE;
+  text-align: center;
+  font-family: Saira;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */
