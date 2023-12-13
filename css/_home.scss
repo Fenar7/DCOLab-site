@@ -375,7 +375,7 @@
 
 .client-info-container{
     overflow: hidden!important;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("/images/client-info-bg.svg"), lightgray 50% / cover no-repeat;
+    background: $main_black;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -385,7 +385,7 @@
             h2{
                 color: $white;
                 text-align: center;
-                font-family: inherit;
+                font-family: Syne;
                 font-size: 3.125rem;
                 font-style: normal;
                 font-weight: 600;
@@ -411,7 +411,7 @@
                 h3{
                     color: $white;
                     text-align: center;
-                    font-family: inherit;
+                    font-family: Saira;
                     font-size: 2.8125rem;
                     font-style: normal;
                     font-weight: 700;
@@ -423,7 +423,7 @@
                 p{
                     color: $white;
                     text-align: center;
-                    font-family: inherit;
+                    font-family: Saira;
                     font-size: 1.125rem;
                     font-style: normal;
                     font-weight: 700;

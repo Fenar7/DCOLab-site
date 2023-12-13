@@ -661,7 +661,7 @@ footer .row .contact-us img {
 
 .client-info-container {
   overflow: hidden !important;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("/images/client-info-bg.svg"), lightgray 50%/cover no-repeat;
+  background: #212121;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -671,7 +671,7 @@ footer .row .contact-us img {
 .client-info-container .client-info .heading h2 {
   color: #fff;
   text-align: center;
-  font-family: inherit;
+  font-family: Syne;
   font-size: 3.125rem;
   font-style: normal;
   font-weight: 600;
@@ -701,7 +701,7 @@ footer .row .contact-us img {
 .client-info-container .client-info .cards-container .cardd h3 {
   color: #fff;
   text-align: center;
-  font-family: inherit;
+  font-family: Saira;
   font-size: 2.8125rem;
   font-style: normal;
   font-weight: 700;
@@ -715,7 +715,7 @@ footer .row .contact-us img {
 .client-info-container .client-info .cards-container .cardd p {
   color: #fff;
   text-align: center;
-  font-family: inherit;
+  font-family: Saira;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
