@@ -1010,7 +1010,7 @@ footer .row .contact-us img {
 }
 .brands-container .image img {
   width: 100%;
-  height: 1005;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
