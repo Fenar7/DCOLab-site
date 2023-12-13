@@ -531,12 +531,12 @@ footer .row .contact-us img {
 
 .services-container {
   overflow: hidden !important;
-  background-color: #F5F8FF;
+  background-color: #FCF7EE;
 }
 .services-container .services .heading h5 {
-  color: #717171;
+  color: #212121;
   text-align: center;
-  font-family: inherit;
+  font-family: Syne;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: 500;
@@ -548,11 +548,11 @@ footer .row .contact-us img {
   }
 }
 .services-container .services .heading h1 {
-  background: linear-gradient(93deg, #117CB2 24.06%, #67E0CF 79.96%);
+  background: #8FB0A1;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Maven Pro;
+  font-family: Syne;
   font-size: 3.75rem;
   font-style: normal;
   font-weight: 500;
@@ -586,7 +586,7 @@ footer .row .contact-us img {
   overflow: hidden;
   display: flex;
   width: 22.375rem;
-  height: 37rem;
+  height: 22rem;
   padding: 1.5rem 1.125rem 1.9375rem 1.0625rem;
   flex-direction: column;
   align-items: flex-start;
@@ -631,7 +631,7 @@ footer .row .contact-us img {
 }
 .services-container .services .cards-container .cardd .content h5 {
   color: #000;
-  font-family: inherit;
+  font-family: Syne;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
@@ -639,7 +639,7 @@ footer .row .contact-us img {
 }
 .services-container .services .cards-container .cardd .content p {
   color: #717171;
-  font-family: inherit;
+  font-family: Saira;
   font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
